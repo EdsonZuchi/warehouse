@@ -29,7 +29,7 @@ backend e React no frontend.
 
 ### Pré-requisitos
 
-- Java 11 ou superior
+- Java 17 ou superior
 - Node.js e npm
 
 ### Passos para Executar
