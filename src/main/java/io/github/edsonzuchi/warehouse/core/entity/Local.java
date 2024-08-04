@@ -1,9 +1,6 @@
-package io.github.edsonzuchi.warehouse.entity;
+package io.github.edsonzuchi.warehouse.core.entity;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -14,15 +11,18 @@ import java.time.LocalDateTime;
 @Entity
 @AllArgsConstructor
 @NoArgsConstructor
-@Getter
 @Setter
-public class User {
+@Getter
+public class Local {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+    @Column(unique=true)
     private String name;
-    private String email;
-    private Boolean active;
     private LocalDateTime created;
+    @ManyToOne
+    @JoinColumn(name = "id_user", nullable = false)
+    private User user;
+
 }

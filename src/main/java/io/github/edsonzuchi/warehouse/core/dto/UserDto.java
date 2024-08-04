@@ -1,4 +1,4 @@
-package io.github.edsonzuchi.warehouse.dto;
+package io.github.edsonzuchi.warehouse.core.dto;
 
 import java.util.Objects;
 

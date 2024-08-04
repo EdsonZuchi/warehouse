@@ -1,6 +1,6 @@
-package io.github.edsonzuchi.warehouse.repository;
+package io.github.edsonzuchi.warehouse.core.repository;
 
-import io.github.edsonzuchi.warehouse.entity.User;
+import io.github.edsonzuchi.warehouse.core.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

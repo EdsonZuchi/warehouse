@@ -1,7 +1,7 @@
-package io.github.edsonzuchi.warehouse.controller;
+package io.github.edsonzuchi.warehouse.core.controller;
 
-import io.github.edsonzuchi.warehouse.dto.UserDto;
-import io.github.edsonzuchi.warehouse.usecase.UserService;
+import io.github.edsonzuchi.warehouse.core.usecase.UserService;
+import io.github.edsonzuchi.warehouse.core.dto.UserDto;
 import io.github.edsonzuchi.warehouse.util.UseCaseException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

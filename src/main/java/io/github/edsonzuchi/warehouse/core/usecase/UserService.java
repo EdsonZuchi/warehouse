@@ -1,8 +1,8 @@
-package io.github.edsonzuchi.warehouse.usecase;
+package io.github.edsonzuchi.warehouse.core.usecase;
 
-import io.github.edsonzuchi.warehouse.dto.UserDto;
-import io.github.edsonzuchi.warehouse.entity.User;
-import io.github.edsonzuchi.warehouse.repository.UserRepository;
+import io.github.edsonzuchi.warehouse.core.entity.User;
+import io.github.edsonzuchi.warehouse.core.repository.UserRepository;
+import io.github.edsonzuchi.warehouse.core.dto.UserDto;
 import io.github.edsonzuchi.warehouse.util.UseCaseException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
